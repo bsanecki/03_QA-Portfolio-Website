@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 64" role="img" aria-label="Cisco Networking Academy">
+  <g fill="#049FD9">
+    <rect x="7" y="18" width="4" height="8" rx="2"/><rect x="15" y="11" width="4" height="15" rx="2"/>
+    <rect x="23" y="5" width="4" height="21" rx="2"/><rect x="31" y="13" width="4" height="13" rx="2"/>
+    <rect x="39" y="2" width="4" height="24" rx="2"/><rect x="47" y="13" width="4" height="13" rx="2"/>
+    <rect x="55" y="5" width="4" height="21" rx="2"/><rect x="63" y="11" width="4" height="15" rx="2"/>
+    <rect x="71" y="18" width="4" height="8" rx="2"/>
+  </g>
+  <text x="40" y="42" text-anchor="middle" fill="#049FD9" font-family="Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="1">CISCO</text>
+  <text x="40" y="53" text-anchor="middle" fill="#45627A" font-family="Arial, sans-serif" font-size="6.5" font-weight="700">NETWORKING ACADEMY</text>
+</svg>

@@ -1,0 +1,615 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Bartosz Sanecki - Manual QA Tester portfolio featuring manual software testing, test documentation, API and mobile testing, plus supporting automation projects.">
+  <meta name="theme-color" content="#ffffff">
+  <title>Bartosz Sanecki | QA Tester Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Bartosz Sanecki - home">
+        <span class="brand-mark" aria-hidden="true">&lt;/&gt;</span>
+        <span class="brand-copy"><strong>Bartosz Sanecki</strong><small>QA Portfolio</small></span>
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span><span></span>
+      </button>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#credentials">Credentials</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <a class="nav-github" href="https://github.com/bsanecki" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.08c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.23-1.65-1.23-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.77 2.55 3.46 1.8.1-.72.4-1.2.72-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.5.4.35.76 1.03.76 2.08v3.1c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+        GitHub
+      </a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <section class="hero container" id="home" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <span class="eyebrow-pill">FREELANCE QA TESTER</span>
+        <h1 id="hero-title">Bartosz Sanecki</h1>
+        <p class="hero-role">Manual QA Tester <span>|</span> Functional Testing <span>|</span> API &amp; Mobile Testing</p>
+        <p class="hero-description">I focus primarily on manual testing of web and Android applications, as well as REST APIs. I design test cases, perform functional, exploratory and regression testing, identify defects and prepare clear bug reports with reproducible steps. I also have practical experience with test automation using Python, pytest, Playwright and Appium.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">View Projects</a>
+          <a class="button button-outline" href="https://github.com/bsanecki" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.08c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.23-1.65-1.23-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.77 2.55 3.46 1.8.1-.72.4-1.2.72-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.5.4.35.76 1.03.76 2.08v3.1c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg>
+            GitHub
+          </a>
+          <a class="button button-outline button-play-store" href="https://play.google.com/store/apps/dev?id=7365411332053742010" target="_blank" rel="noopener noreferrer" aria-label="View my Android apps on Google Play">
+            <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false">
+              <path d="M3.35 2.65c-.43.34-.68.88-.68 1.58v15.54c0 .7.25 1.24.68 1.58L13.2 12 3.35 2.65Z" fill="#34A853"/>
+              <path d="m3.35 2.65.18-.12c.48-.28 1.04-.25 1.64.09l10.1 5.74L13.2 12 3.35 2.65Z" fill="#4285F4"/>
+              <path d="m15.27 8.36 5.35 3.04c.91.52.91 1.34 0 1.86l-5.35 3.04L13.2 12l2.07-3.64Z" fill="#FBBC04"/>
+              <path d="m3.35 21.35 9.85-9.35 2.07 4.3-10.1 5.74c-.6.34-1.16.37-1.64.09l-.18-.78Z" fill="#EA4335"/>
+            </svg>
+            Google Play
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-portrait-wrap">
+        <div class="portrait-halo" aria-hidden="true"></div>
+        <div class="portrait-frame">
+          <!-- Replace assets/profile-placeholder.svg with your own image, e.g. assets/profile.jpg -->
+          <img src="assets/profile-placeholder.svg" alt="Profile photo placeholder for Bartosz Sanecki">
+        </div>
+        <p class="portrait-note">I never stop working until I achieve the result I’m looking for.</p>
+      </div>
+    </section>
+
+    <section class="split-section" id="about" aria-labelledby="about-title">
+      <div class="section-inner container">
+        <div class="section-label">
+          <span class="section-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21v-2a8 8 0 0 1 16 0v2Z"/></svg>
+          </span>
+          <div><h2 id="about-title">About Me</h2><span class="label-underline"></span></div>
+        </div>
+        <div class="section-content about-content">
+          <p class="about-specialties">MANUAL QA <span>|</span> API &amp; MOBILE TESTING <span>|</span> TEST AUTOMATION</p>
+          <p>I’m a freelance QA Tester focused primarily on manual software testing and quality assurance. I have practical experience testing web and Android applications, as well as REST APIs. I create test cases, perform functional, exploratory and regression testing, identify defects and prepare clear, reproducible bug reports.</p>
+          <p>I have completed testing projects across different platforms, including uTest, and developed practical QA documentation covering test scenarios, test cases, execution results and defect reports.</p>
+          <p>Alongside manual testing, I have experience with test automation using Playwright, Python, pytest and Appium. I also work with API testing using Postman and SQL, and use Git and GitHub to manage and document my projects.</p>
+          <p>My goal is to deliver reliable testing results through a structured approach, attention to detail and a strong understanding of software quality.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section" id="skills" aria-labelledby="skills-title">
+      <div class="section-inner container">
+        <div class="section-label">
+          <span class="section-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m12 2 9 5-9 5-9-5 9-5Z"/><path d="m3 12 9 5 9-5M3 17l9 5 9-5"/></svg>
+          </span>
+          <div><h2 id="skills-title">Skills</h2><span class="label-underline"></span></div>
+        </div>
+        <div class="section-content">
+          <div class="skills-grid">
+            <article class="skill-card skill-testing">
+              <div class="skill-card-heading"><span class="skill-card-icon testing-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m5 12.5 4.2 4.2L19 7"/></svg></span><h3>Testing</h3><span class="skill-priority">PRIMARY FOCUS</span></div>
+              <ul><li>Manual Testing</li><li>Functional &amp; Regression Testing</li><li>Test Case Design</li><li>Bug Reporting</li><li>API Testing</li><li>Mobile Testing</li><li>Exploratory Testing</li><li>Test Documentation</li></ul>
+            </article>
+            <article class="skill-card skill-automation">
+              <div class="skill-card-heading"><span class="skill-card-icon code-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 6-6 6 6 6M16 6l6 6-6 6M14 3l-4 18"/></svg></span><h3>Automation</h3></div>
+              <ul><li>Python</li><li>pytest</li><li>Playwright</li><li>Appium</li><li>Page Object Model (POM)</li><li>API Test Automation</li></ul>
+            </article>
+            <article class="skill-card skill-tools">
+              <div class="skill-card-heading"><span class="skill-card-icon tool-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="2.75" y="3.5" width="18.5" height="13.5" rx="2"/><path d="M8 21h8M12 17v4M6.5 7.5h11M7 11h4m-4 3h7"/></svg></span><h3>Tools &amp; Technologies</h3></div>
+              <ul><li>Postman</li><li>SQL</li><li>Git &amp; GitHub</li><li>GitHub Actions</li><li>Android Studio</li><li>Chrome DevTools</li><li>Linux</li><li>Charles Proxy</li></ul>
+            </article>
+            <article class="skill-card skill-ai">
+              <div class="skill-card-heading"><span class="skill-card-icon ai-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m12 2 2.1 6.1L20 10l-5.9 2.1L12 18l-2.1-5.9L4 10l5.9-1.9L12 2Z"/><path d="m19 15 .9 2.1L22 18l-2.1.9L19 21l-.9-2.1L16 18l2.1-.9L19 15Z"/></svg></span><h3>AI &amp; AI Tools</h3></div>
+              <ul><li>ChatGPT</li><li>Claude</li><li>Cursor</li><li>Gemini</li><li>GitHub Copilot</li><li>Canva AI</li></ul>
+            </article>
+          </div>
+          <p class="section-footnote">Primary focus: Manual QA. API and mobile testing are additional areas of practice, supported by test automation skills demonstrated in selected projects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section" id="projects" aria-labelledby="projects-title">
+  <div class="section-inner container">
+    <div class="section-label">
+      <span class="section-icon" aria-hidden="true">
+        <svg viewBox="0 0 24 24"><path d="M3 7.5A1.5 1.5 0 0 1 4.5 6H10l2 2h7.5A1.5 1.5 0 0 1 21 9.5v9a1.5 1.5 0 0 1-1.5 1.5h-15A1.5 1.5 0 0 1 3 18.5Z"/></svg>
+      </span>
+      <div><h2 id="projects-title">Projects</h2><span class="label-underline"></span></div>
+    </div>
+    <div class="section-content projects-content">
+      <div class="project-group">
+      <div class="project-group-heading">
+        <div><h3>QA Projects</h3><p>Hands-on testing work covering manual QA, APIs, web and mobile automation, and performance testing.</p></div>
+        <span class="project-count">06 PROJECTS</span>
+      </div>
+      <div class="projects-grid"><article class="project-card ">
+      <div class="project-visual project-visual--crawler"><img src="assets/screens/01.png" alt="Website crawler scan showing discovered URLs and their HTTP statuses" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>PYTHON QA TOOL</span><span class="status-tag">PROJECT</span></div>
+        <h3>01. Website Crawler & Broken Link Checker</h3>
+        <p>A desktop tool that crawls websites, checks discovered links, identifies broken URLs and redirects, measures response times, and exports scan results to Excel.</p>
+        <div class="tag-list"><span>Python</span><span>Tkinter</span><span>Playwright</span><span>unittest</span><span>Excel</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/01_QA-Portfolio/tree/main/01_Website_Crawler_Broken_Link_Checker" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--api"><img src="assets/screens/02.png" alt="REST API test execution output from the pytest framework" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>API TESTING</span><span class="status-tag">156 TESTS</span></div>
+        <h3>02. REST API Testing Framework</h3>
+        <p>A pytest and Requests framework for API response validation, JSON Schema checks, positive and negative scenarios, boundary cases, and data-integrity testing across related resources.</p>
+        <div class="tag-list"><span>Python</span><span>pytest</span><span>Requests</span><span>JSON Schema</span><span>Allure</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/01_QA-Portfolio/tree/main/02_REST_API_Testing_Framework" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--ecommerce"><img src="assets/screens/03.png" alt="E-commerce UI automation test report with the recorded test results" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>WEB UI AUTOMATION</span><span class="status-tag">130 PASSED</span></div>
+        <h3>03. E-commerce UI Automation Suite</h3>
+        <p>A Playwright and pytest suite for a Fourthwall storefront. It covers navigation, product options, currency selection, collections, shopping-cart operations, and checkout navigation without placing an order.</p>
+        <div class="tag-list"><span>Python</span><span>Playwright</span><span>pytest</span><span>Chromium</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/01_QA-Portfolio/tree/main/03_E-commerce_UI_Automation" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--manual"><img src="assets/screens/04.png" alt="Manual QA defect reports and test documentation" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>MANUAL QA</span><span class="status-tag">122 TEST CASES</span></div>
+        <h3>04. Manual QA Documentation Suite</h3>
+        <p>Structured manual testing documentation covering a web game, website and API workflows, and the LocalLock Android app, with reproducible test cases and documented defects.</p>
+        <div class="tag-list"><span>Manual Testing</span><span>Test Cases</span><span>Bug Reports</span><span>Postman</span><span>Excel</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/01_QA-Portfolio/tree/main/04_Manual_QA_Documentation_Suite" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--appium"><img src="assets/screens/05.png" alt="Pandago Android Appium test execution results" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>ANDROID QA</span><span class="status-tag">44 PASSED · 3 SKIPPED</span></div>
+        <h3>05. Android Mobile Testing - Pandago</h3>
+        <p>A mobile testing project combining manual test cases, documented API/backend scenarios, and Appium automation for app navigation, quiz flows, friends, rewards, and profile settings.</p>
+        <div class="tag-list"><span>Android</span><span>Appium</span><span>pytest</span><span>UiAutomator2</span><span>POM</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/01_QA-Portfolio/tree/main/05_Android_Mobile_Testing" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--k6"><img src="assets/screens/06.png" alt="API performance testing output for the k6 project" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>PERFORMANCE TESTING</span><span class="status-tag">PROJECT</span></div>
+        <h3>06. API Performance Testing with k6</h3>
+        <p>Performance testing scenarios for public API endpoints, covering smoke, load, and stress profiles with response checks, thresholds, and p90/p95 result analysis.</p>
+        <div class="tag-list"><span>k6</span><span>JavaScript</span><span>API Testing</span><span>Performance</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/01_QA-Portfolio/tree/main/06_API_Performance_Testing_k6" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article></div>
+    </div>
+      <div class="project-group">
+      <div class="project-group-heading">
+        <div><h3>Android Apps</h3><p>Android apps and app concepts across learning, privacy, and mobile utility use cases.</p></div>
+        <span class="project-count">03 APPS</span>
+      </div>
+      <div class="projects-grid"><article class="project-card ">
+      <div class="project-visual project-visual--app-pandago"><img src="assets/screens/pandago.png" alt="Pandago Android quiz application screenshots" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>ANDROID APPLICATION</span><span class="status-tag">GOOGLE PLAY</span></div>
+        <h3>Pandago - Learn & Quiz</h3>
+        <p>An Android quiz app built around learning and real-time competition. Players can join 1-vs-1 duels, play with friends, complete daily quizzes, climb rankings, and earn rewards.</p>
+        <div class="tag-list"><span>Android</span><span>Kotlin</span><span>Multiplayer</span><span>Quiz</span><span>Rewards</span></div>
+        <a class="project-link" href="https://play.google.com/store/apps/details?id=com.pandago.app" target="_blank" rel="noopener noreferrer">View on Google Play <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--app-locallock"><img src="assets/screens/locallock.png" alt="LocalLock Android application screenshots" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>ANDROID APPLICATION</span><span class="status-tag">GOOGLE PLAY</span></div>
+        <h3>LocalLock - App Lock & Privacy</h3>
+        <p>An offline-first Android privacy app that protects selected applications with PIN, password, pattern, or biometric authentication. It records failed unlock attempts and can capture intruder photos.</p>
+        <div class="tag-list"><span>Android</span><span>Kotlin</span><span>Biometrics</span><span>Privacy</span><span>Offline</span></div>
+        <a class="project-link" href="https://play.google.com/store/apps/details?id=com.locallock.app" target="_blank" rel="noopener noreferrer">View on Google Play <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card project-card--development">
+      <div class="project-visual project-visual--app-calculator"><img src="assets/screens/calculatorOS.png" alt="CalculatorOS concept banner marked in progress" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>ANDROID APPLICATION CONCEPT</span><span class="status-tag status-tag--development">IN DEVELOPMENT</span></div>
+        <h3>CalculatorOS</h3>
+        <p>An Android app concept in development that explores a private space for selected apps behind a calculator-style interface with PIN protection.</p>
+        <div class="tag-list"><span>Android</span><span>Privacy</span><span>App Cloning</span><span>PIN Protection</span></div>
+        <span class="project-link project-link--disabled">Currently in development</span>
+      </div>
+    </article></div>
+    </div>
+      <div class="project-group">
+      <div class="project-group-heading">
+        <div><h3>Engineering Projects</h3><p>Academic and portfolio work across building services, environmental engineering, renewable energy, solar thermal systems, and climatology.</p></div>
+        <span class="project-count">06 PROJECTS</span>
+      </div>
+      <div class="projects-grid"><article class="project-card ">
+      <div class="project-visual project-visual--hvac"><img src="assets/screens/enginer_01.png" alt="AutoCAD residential HVAC system drawing" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>CAD & BUILDING SERVICES</span><span class="status-tag">PROJECT 01</span></div>
+        <h3>AutoCAD Residential HVAC Systems</h3>
+        <p>Three 2D schematics comparing residential heating and domestic hot-water solutions: split air-to-water heat pump, monobloc heat pump, and gas condensing boiler.</p>
+        <div class="tag-list"><span>AutoCAD</span><span>HVAC</span><span>2D CAD</span><span>Technical Drawing</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/04_Engineering-Projects/tree/main/01_AutoCAD_Residential_HVAC_Systems_Project" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--waste"><img src="assets/screens/enginer_02.png" alt="Municipal waste management engineering flow diagram" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>ENVIRONMENTAL ENGINEERING</span><span class="status-tag">PROJECT 02</span></div>
+        <h3>Municipal Waste Management & Landfill Engineering</h3>
+        <p>An engineering study combining waste composition analysis, mass-flow and Sankey diagrams, preliminary aerobic reactor sizing, landfill forecasting, and technical CAD drawings.</p>
+        <div class="tag-list"><span>Excel</span><span>AutoCAD</span><span>Sankey Diagram</span><span>Data Analysis</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/04_Engineering-Projects/tree/main/02_Municipal_Waste_Management_Project" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--heatpump"><img src="assets/screens/enginer_03.png" alt="GeoT*SOL heat pump system design project banner" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>ENERGY SIMULATION</span><span class="status-tag">PROJECT 03</span></div>
+        <h3>GeoT*SOL Heat Pump System Design</h3>
+        <p>A comparative simulation study of residential air-to-water heat pump systems, using four household and location scenarios to review energy demand, system performance, and environmental indicators.</p>
+        <div class="tag-list"><span>GeoT*SOL 2025 R1</span><span>Heat Pumps</span><span>Energy Simulation</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/04_Engineering-Projects/tree/main/03_GeoTSOL_Heat_Pump_System_Design" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--solar"><img src="assets/screens/enginer_04.png" alt="PV*SOL photovoltaic system design project banner" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>RENEWABLE ENERGY</span><span class="status-tag">PROJECT 04</span></div>
+        <h3>PV*SOL Photovoltaic System Design</h3>
+        <p>A four-scenario residential PV study covering module and inverter selection, roof layout, annual energy yield, self-consumption, grid exports, and financial indicators.</p>
+        <div class="tag-list"><span>PV*SOL 2025</span><span>Solar PV</span><span>Energy Yield</span><span>Simulation</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/04_Engineering-Projects/tree/main/04_PVSOL_Photovoltaic_System_Design" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card">
+      <div class="project-visual project-visual--tsol"><img src="assets/screens/enginer_05.png" alt="T*SOL solar thermal system design and simulation project banner" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>SOLAR THERMAL SIMULATION</span><span class="status-tag">PROJECT 05</span></div>
+        <h3>T*SOL Solar Thermal System Design</h3>
+        <p>A solar thermal system study using T*SOL to model system configurations, assess solar energy contribution to hot-water and space-heating demand, and review performance and cost indicators.</p>
+        <div class="tag-list"><span>T*SOL</span><span>Solar Thermal</span><span>System Simulation</span><span>Energy Analysis</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/04_Engineering-Projects" target="_blank" rel="noopener noreferrer">View project repository <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card">
+      <div class="project-visual project-visual--climate"><img src="assets/screens/enginer_06.png" alt="Annual mean air temperature chart for Kętrzyn from 1981 to 2014" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>CLIMATOLOGY & DATA ANALYSIS</span><span class="status-tag">PROJECT 06</span></div>
+        <h3>Climatological Analysis of Kętrzyn (1981-2014)</h3>
+        <p>An analysis of annual mean air temperature in Kętrzyn based on quality-checked IMGW daily observations, using yearly averages and a five-year moving average to examine temperature variability and longer-term patterns.</p>
+        <div class="tag-list"><span>Climatology</span><span>IMGW Data</span><span>Temperature Trends</span><span>Time-Series Analysis</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/04_Engineering-Projects" target="_blank" rel="noopener noreferrer">View project repository <span aria-hidden="true">↗</span></a>
+      </div>
+    </article></div>
+    </div>
+      <div class="project-group">
+      <div class="project-group-heading">
+        <div><h3>Automation Projects</h3><p>Workflow automation and market monitoring projects designed to reduce repetitive manual work.</p></div>
+        <span class="project-count">05 PROJECTS</span>
+      </div>
+      <div class="projects-grid"><article class="project-card ">
+      <div class="project-visual project-visual--market"><img src="assets/screens/market_radar.png" alt="Automated Market Radar Discord notification screenshot" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>PYTHON MARKET MONITORING</span><span class="status-tag">PROJECT</span></div>
+        <h3>Automated Market Radar</h3>
+        <p>A Python monitoring tool that collects selected financial news and market data, filters previously seen items, and sends new updates to Discord. GitHub Actions supports scheduled and manual runs.</p>
+        <div class="tag-list"><span>Python</span><span>GitHub Actions</span><span>Discord Webhooks</span><span>JSON</span><span>Web Scraping</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/04_Automated-Market-Radar" target="_blank" rel="noopener noreferrer">View project <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--email"><img src="assets/screens/workflow_01.png" alt="Email support automation workflow using Outlook, a router, and Discord" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>WORKFLOW AUTOMATION</span><span class="status-tag">WORKFLOW 01</span></div>
+        <h3>Email Support Automation</h3>
+        <p>A workflow concept for sorting incoming Outlook messages, filtering selected system emails, sending acknowledgements when appropriate, and notifying a Discord channel.</p>
+        <div class="tag-list"><span>Activepieces</span><span>Outlook</span><span>Discord</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/06_Automation-Portfolio/tree/main/01_email_support_automation" target="_blank" rel="noopener noreferrer">View workflow <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--facebook"><img src="assets/screens/workflow_02.png" alt="Facebook publishing automation workflow built in Make.com" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>WORKFLOW AUTOMATION</span><span class="status-tag">WORKFLOW 02</span></div>
+        <h3>Facebook Publishing Automation</h3>
+        <p>A scheduled publishing workflow designed to use images and captions stored in Google Drive, publish prepared posts to a Facebook Page, and notify when the unpublished queue is running low.</p>
+        <div class="tag-list"><span>Make.com</span><span>Google Drive</span><span>Facebook Pages</span><span>Discord</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/06_Automation-Portfolio/tree/main/02_make_facebook_automation" target="_blank" rel="noopener noreferrer">View workflow <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--tiktok"><img src="assets/screens/workflow_03.png" alt="TikTok content publishing automation workflow" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>WORKFLOW AUTOMATION</span><span class="status-tag">WORKFLOW 03</span></div>
+        <h3>TikTok Content Publishing Automation</h3>
+        <p>A content workflow designed to prepare TikTok posts from organized Google Drive folders and pass images and post details to a publishing integration, with Discord notifications.</p>
+        <div class="tag-list"><span>Activepieces</span><span>Google Drive</span><span>LetMePost</span><span>Discord</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/06_Automation-Portfolio/tree/main/03_tiktok_content_automation" target="_blank" rel="noopener noreferrer">View workflow <span aria-hidden="true">↗</span></a>
+      </div>
+    </article><article class="project-card ">
+      <div class="project-visual project-visual--monitor"><img src="assets/screens/workflow_04.png" alt="Website monitoring and Discord alerts automation workflow" loading="lazy" decoding="async"></div>
+      <div class="project-body">
+        <div class="project-kicker"><span>WEBSITE MONITORING</span><span class="status-tag">WORKFLOW 04</span></div>
+        <h3>Website Monitoring & Alerts</h3>
+        <p>A scheduled website-checking workflow designed to record availability history in Google Sheets and send a Discord alert when a check indicates a potential availability problem.</p>
+        <div class="tag-list"><span>Activepieces</span><span>HTTP</span><span>Google Sheets</span><span>Discord</span></div>
+        <a class="project-link" href="https://github.com/bsanecki/06_Automation-Portfolio/tree/main/04_website_monitoring_alerts" target="_blank" rel="noopener noreferrer">View workflow <span aria-hidden="true">↗</span></a>
+      </div>
+    </article></div>
+    </div>
+      <p class="section-footnote projects-note">QA results shown on cards refer to saved test runs and may vary when tests are repeated. Engineering entries are educational portfolio studies, not construction documentation. The four workflow automation entries are documented concepts with screenshots; the repository does not include full exports or connected live accounts.</p>
+    </div>
+  </div>
+</section>
+
+    <section class="split-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-inner container">
+        <div class="section-label">
+          <span class="section-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="14" rx="2"/><path d="M8 7V4h8v3M3 12h18M10 12v2h4v-2"/></svg>
+          </span>
+          <div><h2 id="experience-title">Experience</h2><span class="label-underline"></span></div>
+        </div>
+        <div class="section-content experience-list">
+          <article class="experience-item">
+            <span class="timeline-dot"></span>
+            <div class="experience-copy">
+              <h3>Freelance QA Tester</h3>
+              <p>Manual web and mobile testing · Test case execution · Bug identification and reporting · Crowdtesting projects</p>
+            </div>
+            <time class="experience-period" datetime="2026">2026 - Present</time>
+          </article>
+          <article class="experience-item">
+            <span class="timeline-dot"></span>
+            <div class="experience-copy">
+              <h3>Sales Representative | Energy Company</h3>
+              <p>Sales and customer-facing work within the energy industry.</p>
+            </div>
+            <time class="experience-period" datetime="2025">2025 - 2026</time>
+          </article>
+          <article class="experience-item">
+            <span class="timeline-dot"></span>
+            <div class="experience-copy">
+              <h3>Independent Software, Android &amp; Engineering Projects</h3>
+              <p>QA and test automation portfolio · Android app development (Pandago and LocalLock) · Python tools and workflow automation · Engineering studies</p>
+            </div>
+            <time class="experience-period" datetime="2024">2024 - Present</time>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section credentials-section" id="credentials" aria-labelledby="credentials-title">
+      <div class="section-inner container">
+        <div class="section-label">
+          <span class="section-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="6"/><path d="m8 13-1 9 5-3 5 3-1-9"/></svg>
+          </span>
+          <div><h2 id="credentials-title">Credentials</h2><span class="label-underline"></span></div>
+        </div>
+        <div class="section-content credentials-content">
+          <div class="credentials-intro">
+            <p>Selected certificates and course credentials covering QA, API testing, software engineering, programming and data.</p>
+            <a href="https://github.com/bsanecki/01_QA-Portfolio/tree/main/00_QA-Learning/10_Certificates" target="_blank" rel="noopener noreferrer">Browse certificate files on GitHub <span aria-hidden="true">↗</span></a>
+          </div>
+
+          <div class="credential-group">
+            <div class="credential-group-heading">
+              <div>
+                <h3>Software Engineering &amp; Programming</h3>
+                <p>Software engineering assessments and programming credentials.</p>
+              </div>
+              <span>4 CREDENTIALS</span>
+            </div>
+            <div class="credentials-grid">
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-hackerrank" aria-hidden="true"><img src="assets/icons/hackerrank.svg" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">SOFTWARE ENGINEERING</span>
+                  <h3>Software Engineer Certification</h3>
+                  <p>HackerRank · Role-based software engineering assessment</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-hackerrank" aria-hidden="true"><img src="assets/icons/hackerrank.svg" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">SOFTWARE ENGINEERING</span>
+                  <h3>Software Engineer Intern Certification</h3>
+                  <p>HackerRank · Software engineering intern assessment</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-cisco" aria-hidden="true"><img src="assets/icons/cisco-networking-academy.svg" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">PYTHON PROGRAMMING</span>
+                  <h3>Python Essentials 1 &amp; 2</h3>
+                  <p>Cisco Networking Academy · Two-part Python programming course</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-hackerrank" aria-hidden="true"><img src="assets/icons/hackerrank.svg" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">PYTHON PROGRAMMING</span>
+                  <h3>Python (Basic)</h3>
+                  <p>HackerRank · Core Python language concepts</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="credential-group">
+            <div class="credential-group-heading">
+              <div>
+                <h3>QA &amp; API Testing</h3>
+                <p>Credentials most directly related to software testing and QA workflows.</p>
+              </div>
+              <span>6 CREDENTIALS</span>
+            </div>
+            <div class="credentials-grid">
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-postman" aria-hidden="true"><img src="assets/icons/postman.svg" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">API TESTING</span>
+                  <h3>Postman API Testing Path</h3>
+                  <p>Postman · API testing concepts, requests and practical workflows</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-hackerrank" aria-hidden="true"><img src="assets/icons/hackerrank.svg" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">API TESTING</span>
+                  <h3>REST API Intermediate</h3>
+                  <p>HackerRank · Intermediate REST API assessment</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-stp" aria-hidden="true"><img src="assets/icons/softwaretestpilot.png" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">TEST DESIGN</span>
+                  <h3>Writing Test Cases &amp; Bug Reports</h3>
+                  <p>SoftwareTestPilot · Test design and defect documentation</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-stp" aria-hidden="true"><img src="assets/icons/softwaretestpilot.png" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">TEST AUTOMATION</span>
+                  <h3>Playwright Automation Basics</h3>
+                  <p>SoftwareTestPilot · Browser automation fundamentals</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-stp" aria-hidden="true"><img src="assets/icons/softwaretestpilot.png" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">AGILE &amp; PROJECT TOOLS</span>
+                  <h3>Agile, Scrum &amp; Jira for QA Engineers</h3>
+                  <p>SoftwareTestPilot · Agile practices and Jira fundamentals</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-stp" aria-hidden="true"><img src="assets/icons/softwaretestpilot.png" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">DEVELOPMENT TOOLS</span>
+                  <h3>Git &amp; GitHub Basics for QA Engineers</h3>
+                  <p>SoftwareTestPilot · Version control and collaboration basics</p>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="credential-group">
+            <div class="credential-group-heading">
+              <div>
+                <h3>Databases &amp; Data</h3>
+                <p>Intermediate SQL and foundational data science knowledge.</p>
+              </div>
+              <span>2 CREDENTIALS</span>
+            </div>
+            <div class="credentials-grid">
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-hackerrank" aria-hidden="true"><img src="assets/icons/hackerrank.svg" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">DATABASES</span>
+                  <h3>SQL (Intermediate)</h3>
+                  <p>HackerRank · Intermediate SQL queries and data retrieval</p>
+                </div>
+              </article>
+              <article class="credential-card">
+                <div class="credential-provider credential-provider-cisco" aria-hidden="true"><img src="assets/icons/cisco-networking-academy.svg" alt=""></div>
+                <div class="credential-copy">
+                  <span class="credential-category">DATA SCIENCE</span>
+                  <h3>Data Science Essentials with Python</h3>
+                  <p>Cisco Networking Academy · Data science fundamentals with Python</p>
+                </div>
+              </article>
+            </div>
+          </div>
+          <p class="section-footnote">Credentials are grouped by subject area. The original certificate files are available in the linked GitHub folder.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section education-section" id="education" aria-labelledby="education-title">
+      <div class="section-inner container">
+        <div class="section-label">
+          <span class="section-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5-10-5Z"/><path d="M6 11v5c3.7 2.7 8.3 2.7 12 0v-5M22 9v6"/><path d="M4 13v4"/></svg>
+          </span>
+          <div><h2 id="education-title">Education</h2><span class="label-underline"></span></div>
+        </div>
+        <div class="section-content education-list">
+          <article class="experience-item education-item">
+            <span class="timeline-dot"></span>
+            <div class="experience-copy">
+              <h3>Master’s Studies in Computer Science</h3>
+              <p>Planned future academic direction · Computer Science / IT</p>
+            </div>
+            <span class="experience-period education-planned">Planned</span>
+          </article>
+          <article class="experience-item education-item">
+            <span class="timeline-dot"></span>
+            <div class="experience-copy">
+              <h3>Engineering Studies in Renewable Energy &amp; Waste Management</h3>
+              <p>University of Rzeszów · Engineering degree programme</p>
+            </div>
+            <time class="experience-period" datetime="2023">2023 - Present</time>
+          </article>
+          <article class="experience-item education-item">
+            <span class="timeline-dot"></span>
+            <div class="experience-copy">
+              <h3>High School - Mathematics &amp; Computer Science Profile</h3>
+              <p>High school education · Mathematics and Computer Science</p>
+            </div>
+            <span class="experience-period">2019 - 2023</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="split-section contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-inner container">
+        <div class="section-label">
+          <span class="section-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><rect x="2.5" y="4.5" width="19" height="15" rx="2"/><path d="m3 6 9 7 9-7"/></svg>
+          </span>
+          <div><h2 id="contact-title">Contact</h2><span class="label-underline"></span></div>
+        </div>
+        <div class="section-content contact-content">
+          <h3>Let's get in touch</h3>
+          <p>I'm open to QA opportunities, collaboration and interesting testing projects.</p>
+          <div class="contact-cards">
+            <a class="contact-card" href="https://github.com/bsanecki" target="_blank" rel="noopener noreferrer" aria-label="Open GitHub profile">
+              <span class="contact-icon github-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 .9a11.1 11.1 0 0 0-3.51 21.63c.56.1.76-.24.76-.54v-2.08c-3.1.68-3.76-1.32-3.76-1.32-.5-1.3-1.23-1.65-1.23-1.65-1.01-.69.08-.68.08-.68 1.12.08 1.71 1.15 1.71 1.15 1 .1.77 2.55 3.46 1.8.1-.72.4-1.2.72-1.48-2.48-.28-5.09-1.24-5.09-5.52 0-1.22.44-2.22 1.15-3-.12-.28-.5-1.42.11-2.96 0 0 .94-.3 3.05 1.15a10.6 10.6 0 0 1 5.55 0c2.12-1.44 3.05-1.15 3.05-1.15.61 1.54.23 2.68.11 2.96.72.78 1.15 1.78 1.15 3 0 4.29-2.61 5.23-5.1 5.5.4.35.76 1.03.76 2.08v3.1c0 .3.2.65.77.54A11.1 11.1 0 0 0 12 .9Z"/></svg></span>
+              <span><strong>GitHub</strong><small>github.com/bsanecki</small></span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="contact-card" href="https://www.linkedin.com/in/bartosz-sanecki-928253424" target="_blank" rel="noopener noreferrer" aria-label="Open LinkedIn profile">
+              <span class="contact-icon linkedin-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.35V9h3.414v1.561h.049c.476-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.919-2.064 2.063-2.064 1.14 0 2.064.926 2.064 2.064 0 1.139-.924 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></span>
+              <span><strong>LinkedIn</strong><small>linkedin.com/in/bartosz-sanecki</small></span>
+              <span class="contact-arrow" aria-hidden="true">↗</span>
+            </a>
+            <button class="contact-card contact-card-copy" type="button" data-copy-email="bsaneckidev@gmail.com" aria-label="Copy email address bsaneckidev@gmail.com to clipboard">
+              <span class="contact-icon gmail-icon" aria-hidden="true"><svg viewBox="0 0 48 48" role="img" focusable="false"><path d="M8 38V11" fill="none" stroke="#4285F4" stroke-width="6.2" stroke-linecap="round"/><path d="M8 11 24 24" fill="none" stroke="#EA4335" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 24 40 11" fill="none" stroke="#FBBC04" stroke-width="6.2" stroke-linecap="round" stroke-linejoin="round"/><path d="M40 11V38" fill="none" stroke="#34A853" stroke-width="6.2" stroke-linecap="round"/></svg></span>
+              <span><strong>Email</strong><small data-copy-label>bsaneckidev@gmail.com</small></span>
+              <span class="copy-hint" aria-hidden="true">Copy</span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-inner container"><span><strong>Bartosz Sanecki</strong> · QA Portfolio</span><div><a href="https://github.com/bsanecki" target="_blank" rel="noopener noreferrer">GitHub ↗</a><span class="footer-divider"></span><a href="#home">↑ Back to top</a></div></div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
